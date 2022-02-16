@@ -50,6 +50,6 @@ export const deleteContact = (req, res) => {
     if (err) {
       res.send(err);
     }
-    res.json({msg: `successfully deleted contact ${req.params.contactID}`});
+    res.json({ msg: `successfully deleted contact ${req.params.contactID}` });
   });
 };
